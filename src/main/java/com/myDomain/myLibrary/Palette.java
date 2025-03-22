@@ -24,7 +24,9 @@ public class Palette {
     }
 
     /**
-     * getPalette returns a an array containing five colors defined as integers
+     * Generates a new color palette of 5 random HSB colors.
+     *
+     * @return an array of 5 randomly generated Processing color values
      */
     public int[] getPalette() {
         int numColors = 5;
